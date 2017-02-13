@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/app/assets/styles/main.css
+/app/assets/styles/modules.less
+/app/assets/images
+.DS_STORE

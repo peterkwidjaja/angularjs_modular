@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css assets/styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css assets/styles/main.css -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="appName">
+
+    <!-- <a ui-sref="home">home</a> -->
+    <ui-view></ui-view>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/scripts.js -->
+    <script src="app.js"></script>
+    <script src="app.config.js"></script>
+    <script src="assets/js/core.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
